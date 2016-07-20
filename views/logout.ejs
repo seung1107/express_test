@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="EUC-KR">
-<title>Logout</title>
-</head>
-<body>
-	<%-JSON.stringify(session)%>
-	<form action="/logout" method="post">
-		<button type="submit">Logout</button>
-	</form>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Dalkom Logout
+    </title>
+  </head>
+  <body>
+    <%-JSON.stringify(session)%>
+    <form action="/logout" method="post">
+ 
+      <button type="submit">Logout</button>
+    </form>
+  </body>
 </html>
